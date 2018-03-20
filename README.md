@@ -1,2 +1,0 @@
-# KDG
-BIZ SITE
