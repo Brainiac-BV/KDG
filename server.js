@@ -4,10 +4,8 @@ const routes = require('./routes')
 const app = express()
 
 
-const middleware = [
-  layout(),
-  express.static(path.join(__dirname, 'public')),
-]
+const middleware = express.static(path.join(__dirname, 'public'))
+
 app.use(middleware)
 
 app.use('/', routes)
